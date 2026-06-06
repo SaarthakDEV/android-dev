@@ -9,7 +9,7 @@ const Styling = ({ style, children }) => {
 };
 
 const styles = StyleSheet.create({
-  container: { backgroundColor: "white", padding: 20, },
+  container: { backgroundColor: "white", padding: 20, height:100, width: 100},
   text: { fontSize: 24, fontWeight: "bold", textAlign: "center", color: "black" },
 });
 
