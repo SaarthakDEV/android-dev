@@ -2,8 +2,17 @@ import { Text, View } from "react-native";
 import Greet from "./src/component/Greet";
 import Styling from "./src/component/Styling";
 import DynamicUI from "./src/component/DynamicUI";
+import FlatListRender from "./src/component/FlatList";
+import Forms from "./src/component/Forms";
+import Networking from "./src/component/Networking";
+import { NavigationContainer } from "@react-navigation/native";
+import Navigation from "./src/component/Navigation";
+import Drawer from "./src/component/Navigation/Drawer";
+import Tab from "./src/component/Navigation/Tab";
 
 const App = () => {
+
+
   return (
     // <View style={{ flex: 1, padding: 60, backgroundColor: "plum"}}>
     //  <Text>Hellow world</Text>
@@ -32,7 +41,18 @@ const App = () => {
     // </View>
 
 
-    <DynamicUI />
+    // <DynamicUI />
+    // <FlatListRender />
+    // <Forms />
+    // <Networking />
+
+    // <NavigationContainer>
+    //   <Navigation />
+    // </NavigationContainer>
+
+    // <Drawer />
+
+    <Tab />
   );
 };
 
